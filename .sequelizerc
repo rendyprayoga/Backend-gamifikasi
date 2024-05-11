@@ -1,0 +1,6 @@
+require('dotenv').config();
+
+module.exports = {
+  config: 'sequelize/cli-config.js',
+  debug: true
+};

@@ -1,0 +1,692 @@
+[
+  {
+    "id": "1",
+    "name": "Dji Sam Soe Non Filter Plain",
+    "isActive": true
+  },
+  {
+    "id": "2",
+    "name": "A Mild Blue 16",
+    "isActive": true
+  },
+  {
+    "id": "3",
+    "name": "A Filter",
+    "isActive": true
+  },
+  {
+    "id": "4",
+    "name": "A Motion Mild 16",
+    "isActive": true
+  },
+  {
+    "id": "5",
+    "name": "A Satu",
+    "isActive": true
+  },
+  {
+    "id": "6",
+    "name": "Access Mild 16",
+    "isActive": true
+  },
+  {
+    "id": "7",
+    "name": "Sampoerna A Mild Red ",
+    "isActive": true
+  },
+  {
+    "id": "8",
+    "name": "Sampoerna A Mild Red 16",
+    "isActive": true
+  },
+  {
+    "id": "9",
+    "name": "Sampoerna U Bold 12",
+    "isActive": true
+  },
+  {
+    "id": "10",
+    "name": "A Mild Menthol Burst 16",
+    "isActive": true
+  },
+  {
+    "id": "11",
+    "name": "Amour Mentol",
+    "isActive": true
+  },
+  {
+    "id": "12",
+    "name": "Apache Kretek",
+    "isActive": true
+  },
+  {
+    "id": "13",
+    "name": "Apache Exclusive Mild 16",
+    "isActive": true
+  },
+  {
+    "id": "14",
+    "name": "Apache Filter ",
+    "isActive": true
+  },
+  {
+    "id": "15",
+    "name": "Ardath",
+    "isActive": true
+  },
+  {
+    "id": "16",
+    "name": "Aspro",
+    "isActive": true
+  },
+  {
+    "id": "17",
+    "name": "Avolution Menthol 20",
+    "isActive": true
+  },
+  {
+    "id": "18",
+    "name": "Avolution Red 20",
+    "isActive": true
+  },
+  {
+    "id": "19",
+    "name": "Beat",
+    "isActive": true
+  },
+  {
+    "id": "20",
+    "name": "Bintang Buana Raya Non Filter 12",
+    "isActive": true
+  },
+  {
+    "id": "21",
+    "name": "Bokormas",
+    "isActive": true
+  },
+  {
+    "id": "22",
+    "name": "Bossini",
+    "isActive": true
+  },
+  {
+    "id": "23",
+    "name": "Camel",
+    "isActive": true
+  },
+  {
+    "id": "24",
+    "name": "Chief",
+    "isActive": true
+  },
+  {
+    "id": "25",
+    "name": "Chips",
+    "isActive": true
+  },
+  {
+    "id": "26",
+    "name": "Clas Mild ",
+    "isActive": true
+  },
+  {
+    "id": "27",
+    "name": "Club Mild ",
+    "isActive": true
+  },
+  {
+    "id": "28",
+    "name": "Crystal",
+    "isActive": true
+  },
+  {
+    "id": "29",
+    "name": "Dunhill Filter 16",
+    "isActive": true
+  },
+  {
+    "id": "30",
+    "name": "Dunhill Mild ",
+    "isActive": true
+  },
+  {
+    "id": "31",
+    "name": "Diplomat",
+    "isActive": true
+  },
+  {
+    "id": "32",
+    "name": "Djarum 76 Filter Gold 12",
+    "isActive": true
+  },
+  {
+    "id": "33",
+    "name": "Djarum 76 ",
+    "isActive": true
+  },
+  {
+    "id": "34",
+    "name": "Djarum Black 16",
+    "isActive": true
+  },
+  {
+    "id": "35",
+    "name": "Djarum Coklat 12",
+    "isActive": true
+  },
+  {
+    "id": "36",
+    "name": "Djarum Istimewa 12",
+    "isActive": true
+  },
+  {
+    "id": "37",
+    "name": "Dji Sam Soe Filter",
+    "isActive": true
+  },
+  {
+    "id": "38",
+    "name": "Dji Sam Soe Super Premium 12",
+    "isActive": true
+  },
+  {
+    "id": "39",
+    "name": "Djitoe",
+    "isActive": true
+  },
+  {
+    "id": "40",
+    "name": "Djarum Super ",
+    "isActive": true
+  },
+  {
+    "id": "41",
+    "name": "Djarum Super Mld ",
+    "isActive": true
+  },
+  {
+    "id": "42",
+    "name": "Magnum Mild ",
+    "isActive": true
+  },
+  {
+    "id": "43",
+    "name": "Dunhill B Menthol Lights 20",
+    "isActive": true
+  },
+  {
+    "id": "44",
+    "name": "Dunhill B Red 20",
+    "isActive": true
+  },
+  {
+    "id": "45",
+    "name": "Dunhill Filter 12",
+    "isActive": true
+  },
+  {
+    "id": "46",
+    "name": "Dunhill Ultra",
+    "isActive": true
+  },
+  {
+    "id": "47",
+    "name": "Dunhill Lights",
+    "isActive": true
+  },
+  {
+    "id": "48",
+    "name": "Dunhill Menthol",
+    "isActive": true
+  },
+  {
+    "id": "49",
+    "name": "Dunhill Menthol Lights",
+    "isActive": true
+  },
+  {
+    "id": "50",
+    "name": "Dunhill Red",
+    "isActive": true
+  },
+  {
+    "id": "51",
+    "name": "Esse Berry Pop",
+    "isActive": true
+  },
+  {
+    "id": "52",
+    "name": "Esse change",
+    "isActive": true
+  },
+  {
+    "id": "53",
+    "name": "Geo Mild 16",
+    "isActive": true
+  },
+  {
+    "id": "54",
+    "name": "Gudang Garam Djaja",
+    "isActive": true
+  },
+  {
+    "id": "55",
+    "name": "Gurang Garam International",
+    "isActive": true
+  },
+  {
+    "id": "56",
+    "name": "Gudang Garam Merah",
+    "isActive": true
+  },
+  {
+    "id": "57",
+    "name": "Gudang Garam Mild Shiver",
+    "isActive": true
+  },
+  {
+    "id": "58",
+    "name": "Gudang Garam Move",
+    "isActive": true
+  },
+  {
+    "id": "59",
+    "name": "Gudang Garam Signature",
+    "isActive": true
+  },
+  {
+    "id": "60",
+    "name": "Gudang Garam Patra",
+    "isActive": true
+  },
+  {
+    "id": "61",
+    "name": "H Mild",
+    "isActive": true
+  },
+  {
+    "id": "62",
+    "name": "Harmoni",
+    "isActive": true
+  },
+  {
+    "id": "63",
+    "name": "Hits Mild 16",
+    "isActive": true
+  },
+  {
+    "id": "64",
+    "name": "In Mild 16",
+    "isActive": true
+  },
+  {
+    "id": "65",
+    "name": "Jagoan",
+    "isActive": true
+  },
+  {
+    "id": "66",
+    "name": "Jaz",
+    "isActive": true
+  },
+  {
+    "id": "67",
+    "name": "Jazy Mild ",
+    "isActive": true
+  },
+  {
+    "id": "68",
+    "name": "LA Bold ",
+    "isActive": true
+  },
+  {
+    "id": "69",
+    "name": "LA Lights Ice Menthol 16",
+    "isActive": true
+  },
+  {
+    "id": "70",
+    "name": "LA Lights Red ",
+    "isActive": true
+  },
+  {
+    "id": "71",
+    "name": "LA Lights Menthol 16",
+    "isActive": true
+  },
+  {
+    "id": "72",
+    "name": "Lotus mild",
+    "isActive": true
+  },
+  {
+    "id": "73",
+    "name": "Lucky Strike Blue 20",
+    "isActive": true
+  },
+  {
+    "id": "74",
+    "name": "Lucky Strike Red 20",
+    "isActive": true
+  },
+  {
+    "id": "75",
+    "name": "Lucky Strike Lights",
+    "isActive": true
+  },
+  {
+    "id": "76",
+    "name": "Lucky Strike Light Menthol 20",
+    "isActive": true
+  },
+  {
+    "id": "77",
+    "name": "Lucky Strike Mild ",
+    "isActive": true
+  },
+  {
+    "id": "78",
+    "name": "Lucky Strike Regular",
+    "isActive": true
+  },
+  {
+    "id": "79",
+    "name": "Lukman",
+    "isActive": true
+  },
+  {
+    "id": "80",
+    "name": "Matra Non Filter Soft 12",
+    "isActive": true
+  },
+  {
+    "id": "81",
+    "name": "Magnum Mild",
+    "isActive": true
+  },
+  {
+    "id": "82",
+    "name": "Marlboro Light Black Menthol 20",
+    "isActive": true
+  },
+  {
+    "id": "83",
+    "name": "Marlboro Filter Black ",
+    "isActive": true
+  },
+  {
+    "id": "84",
+    "name": "Marlboro Ice Blast",
+    "isActive": true
+  },
+  {
+    "id": "85",
+    "name": "Marlboro Ice Burst Menthol 20",
+    "isActive": true
+  },
+  {
+    "id": "86",
+    "name": "Marlboro Light Menthol",
+    "isActive": true
+  },
+  {
+    "id": "87",
+    "name": "Marlboro Lights 20",
+    "isActive": true
+  },
+  {
+    "id": "88",
+    "name": "Marlboro Red 20",
+    "isActive": true
+  },
+  {
+    "id": "89",
+    "name": "Masada",
+    "isActive": true
+  },
+  {
+    "id": "90",
+    "name": "Menara Filter ",
+    "isActive": true
+  },
+  {
+    "id": "91",
+    "name": "Magnum Filter 12",
+    "isActive": true
+  },
+  {
+    "id": "92",
+    "name": "Minak Djinggo Non Filter 10",
+    "isActive": true
+  },
+  {
+    "id": "93",
+    "name": "MLD",
+    "isActive": true
+  },
+  {
+    "id": "94",
+    "name": "MLD Black Series ",
+    "isActive": true
+  },
+  {
+    "id": "95",
+    "name": "Mlindjo",
+    "isActive": true
+  },
+  {
+    "id": "96",
+    "name": "Mustang Filter ",
+    "isActive": true
+  },
+  {
+    "id": "97",
+    "name": "Neslite Mild 16",
+    "isActive": true
+  },
+  {
+    "id": "98",
+    "name": "Nikki Super ",
+    "isActive": true
+  },
+  {
+    "id": "99",
+    "name": "Niko 16",
+    "isActive": true
+  },
+  {
+    "id": "100",
+    "name": "Nuu Mild 16",
+    "isActive": true
+  },
+  {
+    "id": "101",
+    "name": "On Bold",
+    "isActive": true
+  },
+  {
+    "id": "102",
+    "name": "Panamas Non Filter 12",
+    "isActive": true
+  },
+  {
+    "id": "103",
+    "name": "Penamas",
+    "isActive": true
+  },
+  {
+    "id": "104",
+    "name": "Pensil",
+    "isActive": true
+  },
+  {
+    "id": "105",
+    "name": "Philip Morris Bold",
+    "isActive": true
+  },
+  {
+    "id": "106",
+    "name": "Pin",
+    "isActive": true
+  },
+  {
+    "id": "107",
+    "name": "Pmb",
+    "isActive": true
+  },
+  {
+    "id": "108",
+    "name": "Porenza Bold",
+    "isActive": true
+  },
+  {
+    "id": "109",
+    "name": "Rasta 20",
+    "isActive": true
+  },
+  {
+    "id": "110",
+    "name": "Red Bold",
+    "isActive": true
+  },
+  {
+    "id": "111",
+    "name": "Red Mild",
+    "isActive": true
+  },
+  {
+    "id": "112",
+    "name": "Relax Mild 16",
+    "isActive": true
+  },
+  {
+    "id": "113",
+    "name": "Sampoerna A Hijau 12",
+    "isActive": true
+  },
+  {
+    "id": "114",
+    "name": "Score Mild 16",
+    "isActive": true
+  },
+  {
+    "id": "115",
+    "name": "Senior",
+    "isActive": true
+  },
+  {
+    "id": "116",
+    "name": "Signature Mild",
+    "isActive": true
+  },
+  {
+    "id": "117",
+    "name": "Simustika Non Filter 12",
+    "isActive": true
+  },
+  {
+    "id": "118",
+    "name": "Sriwedari",
+    "isActive": true
+  },
+  {
+    "id": "119",
+    "name": "Star Mild Menthol 16",
+    "isActive": true
+  },
+  {
+    "id": "120",
+    "name": "Star Mild ",
+    "isActive": true
+  },
+  {
+    "id": "121",
+    "name": "Sukun",
+    "isActive": true
+  },
+  {
+    "id": "122",
+    "name": "Surya 12",
+    "isActive": true
+  },
+  {
+    "id": "123",
+    "name": "Surya  16",
+    "isActive": true
+  },
+  {
+    "id": "124",
+    "name": "Surya Exclusive",
+    "isActive": true
+  },
+  {
+    "id": "125",
+    "name": "Surya Pro Mild",
+    "isActive": true
+  },
+  {
+    "id": "126",
+    "name": "Surya Professional",
+    "isActive": true
+  },
+  {
+    "id": "127",
+    "name": "Ten Mild 16",
+    "isActive": true
+  },
+  {
+    "id": "128",
+    "name": "U Mild Cool Menthol 16",
+    "isActive": true
+  },
+  {
+    "id": "129",
+    "name": "Ubold",
+    "isActive": true
+  },
+  {
+    "id": "130",
+    "name": "U Mild ",
+    "isActive": true
+  },
+  {
+    "id": "131",
+    "name": "Up Click",
+    "isActive": true
+  },
+  {
+    "id": "132",
+    "name": "Upmild",
+    "isActive": true
+  },
+  {
+    "id": "133",
+    "name": "Urban Mild",
+    "isActive": true
+  },
+  {
+    "id": "134",
+    "name": "Urban Mild 16",
+    "isActive": true
+  },
+  {
+    "id": "135",
+    "name": "Viper Filter 16",
+    "isActive": true
+  },
+  {
+    "id": "136",
+    "name": "Wazz",
+    "isActive": true
+  },
+  {
+    "id": "137",
+    "name": "Wismilak Non Filter 12",
+    "isActive": true
+  },
+  {
+    "id": "138",
+    "name": "Lain-Lain",
+    "isActive": true
+  }
+]
