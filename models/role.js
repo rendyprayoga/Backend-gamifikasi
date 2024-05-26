@@ -54,6 +54,11 @@ class Role extends Base {
       permissions: pickPermissions(['read']),
     },
     {
+      code: 'badge',
+      label: 'Badge',
+      permissions: pickPermissions(['read']),
+    },
+    {
       code: 'apis',
       label: 'APIs',
       permissions: pickPermissions(['read', 'create', 'delete']),
