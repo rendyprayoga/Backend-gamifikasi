@@ -51,6 +51,7 @@ User.init(
     roleId: DataTypes.BIGINT,
     name: DataTypes.STRING,
     email: DataTypes.STRING,
+    avg_score: DataTypes.VIRTUAL,
     password: {
       type: DataTypes.STRING,
       set(value) {
