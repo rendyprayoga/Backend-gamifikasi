@@ -28,6 +28,7 @@ const findPerson = async (id) => {
       'name',
       'point',
       'address',
+      'score',
     ],
   });
 };
