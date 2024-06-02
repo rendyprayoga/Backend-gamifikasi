@@ -23,6 +23,7 @@ const coreCategories = require('./routes/core/categories');
 const coreQuestions = require('./routes/core/questions');
 const coreAnswer = require('./routes/core/answers');
 const coreReports = require('./routes/core/reports');
+const coreRanks = require('./routes/core/ranks');
 
 // const v1Auth = require('./routes/v1/auth');
 // const v1Images = require('./routes/v1/images');
@@ -65,6 +66,7 @@ app.use('/core/categories', coreCategories);
 app.use('/core/questions', coreQuestions);
 app.use('/core/answers', coreAnswer);
 app.use('/core/reports', coreReports);
+app.use('/core/ranks', coreRanks);
 
 // app.use('/v1/auth', v1Auth);
 // app.use('/v1/images', v1Images);

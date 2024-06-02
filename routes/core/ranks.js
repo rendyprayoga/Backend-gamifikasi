@@ -10,30 +10,22 @@ const authorize = require('../../middleware/authorize');
 const sequelize = require('../../sequelize');
 const { Op } = require('sequelize');
 const { QueryTypes } = require('sequelize');
-const config = require('../../config');
-const hash = require('../../utils/hash');
-
-const Rank = require('../../models/rank');
-const { object } = require('sharp/lib/is');
-const User = require('../../models/user');
 const Category = require('../../models/category');
 
 const indexAction = async (req, res, next) => {
-  let conditionSearch = {};
-  if (req.query._search) {
-    conditionSearch = {
-      [Op.or]: {
-        email: { [Op.like]: `%${req.query._search}%` },
-        score: { [Op.like]: `%${req.query._search}%` },
-      },
-    };
-    req.query._search = '';
-  }
-  const result = await Rank.findAndPaginateAll(req.query, {
-    where: conditionSearch,
-    include: [{ model: User }, { model: Category }],
-  });
-  res.json(result);
+  const totalCategory = await Category.count();
+  if (!totalCategory) return next();
+  const result = await sequelize.query(
+    `SELECT id, name, scores, rank() 
+OVER ( order by scores desc ) 
+AS 'rank' FROM (
+SELECT p.id id,p.name name,( SUM(s.score)/${totalCategory}) scores 
+FROM users p LEFT JOIN submissions s ON s.userId=p.id WHERE p.roleId=2 GROUP BY p.id
+limit 20
+) as result;`,
+    { type: QueryTypes.SELECT }
+  );
+  res.json({ data: result });
 };
 
 const exportUrlAction = (req, res, next) => {
@@ -141,17 +133,8 @@ const addWorksheetRow = (worksheet, report) => {
   }
 };
 
-router.get('/export', signature.verifier(), exportAction);
-
 router.use(authenticate);
 
 router.get('/', authorize('rank.read'), indexAction);
-
-router.get(
-  '/export-url',
-  authenticate,
-  authorize('rank.read'),
-  exportUrlAction
-);
 
 module.exports = router;
