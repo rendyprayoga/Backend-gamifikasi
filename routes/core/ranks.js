@@ -16,13 +16,13 @@ const indexAction = async (req, res, next) => {
   const totalCategory = await Category.count();
   if (!totalCategory) return next();
   const result = await sequelize.query(
-    `SELECT id, name, scores, rank() 
-OVER ( order by scores desc ) 
-AS 'rank' FROM (
-SELECT p.id id,p.name name,( SUM(s.score)/${totalCategory}) scores 
-FROM users p LEFT JOIN submissions s ON s.userId=p.id WHERE p.roleId=2 GROUP BY p.id
-limit 20
-) as result;`,
+    `SELECT id, name, IFNULL(FORMAT(scores,0),0) scores, rank() 
+			OVER ( order by scores desc ) 
+			AS 'rank' FROM (
+				SELECT p.id id,p.name name,(SUM(s.score)/${totalCategory}) scores 
+				FROM users p LEFT JOIN submissions s ON s.userId=p.id WHERE p.roleId=2 GROUP BY p.id
+				limit 20
+			) as result;`,
     { type: QueryTypes.SELECT }
   );
   res.json({ data: result });
