@@ -20,7 +20,7 @@ const indexAction = async (req, res, next) => {
 			OVER ( order by scores desc ) 
 			AS 'rank' FROM (
 				SELECT p.id id,p.name name,(SUM(s.score)/${totalCategory}) scores 
-				FROM users p LEFT JOIN submissions s ON s.userId=p.id WHERE p.roleId=2 GROUP BY p.id
+				FROM Users p LEFT JOIN Submissions s ON s.userId=p.id WHERE p.roleId=2 GROUP BY p.id
 				limit 20
 			) as result;`,
     { type: QueryTypes.SELECT }
