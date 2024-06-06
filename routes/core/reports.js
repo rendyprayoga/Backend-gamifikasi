@@ -30,7 +30,7 @@ const indexAction = async (req, res, next) => {
     req.query._search = '';
   }
   const result = await Submission.findAndPaginateAll(req.query, {
-    where: conditionSearch,
+    // where: conditionSearch,
     include: [{ model: User }, { model: Category }],
   });
   res.json(result);
